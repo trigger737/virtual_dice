@@ -15,7 +15,7 @@ class Dice:
         layout = [[sg.Column([[sg.Button('x', key='quit', size=(3, 1))]], expand_x=True, element_justification='right',
                              pad=0)],
                   [sg.Column([[sg.Image(filename='res\\1.png', key='img')],
-                              [sg.Button('Hodit kostkou', key='generate', size=(20, 3), pad=(0, (10, 0)))]],
+                              [sg.Button('Throw', key='generate', size=(20, 3), pad=(0, (10, 0)))]],
                              element_justification='center', vertical_alignment='bottom', expand_x=True, pad=20)]
                   ]
         return layout
